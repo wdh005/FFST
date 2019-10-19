@@ -18,12 +18,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FAFAFA"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:layout_alignParentBottom="true"
                 app:tabIndicatorGravity="top"
-                app:tabIndicatorColor="@color/colorAccent"
+                app:tabIndicatorColor="@color/wheat"
                 app:tabGravity="fill"
                 app:tabMode="fixed"
-                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                android:layout_alignParentBottom="true"/>
+                />
 
 </RelativeLayout>
 
