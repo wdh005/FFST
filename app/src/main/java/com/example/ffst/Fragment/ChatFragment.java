@@ -61,7 +61,6 @@ public class ChatFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_chat, container, false);
         Button_send = (Button)v.findViewById(R.id.bt_send);
         EditText_chat = (EditText)v.findViewById(R.id.et_chat);
-
         Button_send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
