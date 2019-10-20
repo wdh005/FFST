@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Email"
@@ -41,6 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_pw"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="PassWord"
@@ -48,6 +50,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
+        android:id="@+id/linear_"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
@@ -125,11 +128,11 @@
         android:layout_marginTop="16dp">
 
         <TextView
+            android:id="@+id/tv_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
             android:gravity="center"
-            android:clickable="true"
             android:layout_weight="5"/>
 
         <TextView

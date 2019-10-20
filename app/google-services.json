@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:615481128001:android:1a84e7a591855f8780c2c0",
+        "mobilesdk_app_id": "1:615481128001:android:60f924a37d0e543680c2c0",
         "android_client_info": {
           "package_name": "com.example.ffst"
         }
       },
       "oauth_client": [
         {
-          "client_id": "615481128001-06r6nv06nj8l23972udor350fk552oou.apps.googleusercontent.com",
+          "client_id": "615481128001-p870u8qpg2eeg5114219stqo4hmh42cs.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.cookandroid.ffst",
+            "package_name": "com.example.ffst",
             "certificate_hash": "1f2a612e0cc8a7396692c16db4de05a35e4a63db"
           }
         },
